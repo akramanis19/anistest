@@ -1,103 +1,48 @@
 body{
-    height: 1800px;
-    background-color:#f8f9fa;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
+
 .section{
-border:1px solid black;
 width: 100%;
-height:800px;
-justify-content: center;
-margin-bottom: 10px;
-background-color: orchid;
-}
+height: auto;
+background-color: salmon;
+text-align: center;
+margin-bottom: 30px;
 
+}
+.titre{
+font-weight: bold;
+color: whitesmoke;
+}
 .container{
-margin-bottom: 10px;
-margin-top:  10px;
-height: 700px;
-background-color: orangered;
-
+    width: auto;
+    height: auto;
+    background-color: skyblue;
+    margin: 10px 20% 10px 20%;
 }
-.welcome{
-height: 100%;
-width: 100%;
-background-color: #041c2c;
-
+span{
+    color: #f4cd30;
 }
-.infos{
-    width: 100%;
-}
-.container .infos tr th {
-    border-bottom: 1px solid black;
-    padding: 1%;
-    
-}
-.container .infos tr td{
-    padding: 1%;
-    text-align: left;
-}
-.infos{
-width: 80%;
-
-}
-.header-section{
-    margin-bottom: 20px;
-width: 100%;
-height: 50px;
-background-color: darkgoldenrod;
-text-align: center;
-}
-.h1{
-color: #041c2c;
-text-align: center;
-font-weight: 600;
-
-}
-.infos{
-    border: 1px solid black;
-    height: 500px;
-    margin-top: 10%;
-   
-    margin-left: 30rem;
-    z-index: 50;
-}
-.navbar{
-position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    justify-content: center;
-    padding: .5rem 1rem;
-}
+/*-------------------------------------------------------------------------------------------------------------*/
 
 
 
 
 
-
-
-
-
-
-
-/*----------------------------------------------------------------time--------------------------------------------------*/
 @media (min-width:992px) {
     .page-container {
         max-width: 1140px;
         margin: 0 auto;
-        margin-right: 450px;
+        margin-left: 10px;
 
     }
 .page-container {
         max-width: 1140px;
-        margin: 0 auto;
-        margin-right: 200px;
+        margin: 0 auto;;
+        margin-left: 10px;
     }
     .page-sidenav {
         display: block !important
@@ -301,3 +246,46 @@ border-color:  #041c2c;
 .b-danger {
     border-color:  #041c2c; 
 }
+
+.col-lg-6{
+margin-left: 10px;
+
+
+}
+.row{
+    margin-left: 10px ;
+    width: 600px;
+}
+
+
+
+
+
+
+
+#table{
+border: 1px solid black;
+width: 100%;
+
+}
+#table  tr{
+    border:1px solid blue;
+    width: auto;
+    text-align: left;
+    justify-content: right;
+
+  
+  
+}
+#table tr td{
+    border: 1px solid red;
+}
+
+
+.card{
+margin-left: 60px;
+width: 20rem;
+background-color: teal;
+}
+
+
